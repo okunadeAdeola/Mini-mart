@@ -20,3 +20,15 @@
     }
 }
 
+ 
+ #shadow2{
+    display: none;
+} 
+#shoq{
+    border: 2px solid blue;
+    margin-top: 2px;
+ }
+ table{
+    margin-left: 20px;
+    justify-content: space-around;
+ }

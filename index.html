@@ -17,18 +17,20 @@
     <div id="shoq" style="color: green; margin-top: 4em;" class="shadow shadow-light"></div>
 </div> -->
 <div id="firstDiv">
-<h2 style="margin-left: 43%; " id="mini">MINI MART</h2>
+<h2 style="margin-left: 43%; " id="mini">MINI MART 
+</h2>
+<div id="error" style="display: none; margin-left: 40%;">input something</div>
 <div class="shadow shadow-light w-75 mx-auto" style="justify-content: center; align-items: center; padding: 20px;">
     <input type="text" id="input" class="form-control">
     <button onclick="addItems()" class="btn btn-outline-danger w-25 mt-3" style="margin-left: 35%;">submit</button>
-    <div id="shoq"></div>
+    <table id="shoq" class="bg-primary text-light rounded-2" style="height: 3em;"></table>
 </div>
 </div>
 
     
 
 <div style="text-align: center; margin-top: 10px; margin-left: 160px;" class="shadow shadow-light w-75 p-3" id="shadow2">
-    <button onclick="button()" class="btn btn-danger mt-3">Add to the beginning</button><button onclick="button2()" class="btn btn-warning mt-3 mx-2">Delete the first number</button><button onclick="button3()" class="btn btn-primary mt-3">delete last items</button><button class="btn btn-info mt-3 mx-2" onclick="button4()">Delete all</button><button class="btn btn-secondary mt-3" style="margin-left: 10px;" onclick="button5()">Delete any</button> <button class="btn btn-warning mt-3" style="margin-left: 10px;"onclick="button6()">Edit</button>
+    <button onclick="button()" class="btn btn-danger mt-3" id="push">Add to the beginning</button><button onclick="button2()" class="btn btn-warning mt-3 mx-2">Delete the first number</button><button onclick="button3()" class="btn btn-primary mt-3">delete last items</button><button class="btn btn-info mt-3 mx-2" onclick="button4()">Delete all</button><button class="btn btn-secondary mt-3" style="margin-left: 10px;" onclick="button5()">Delete any</button> <button class="btn btn-warning mt-3" style="margin-left: 10px;"onclick="button6()">Edit</button>
 </div>
  <script src="bootstrap.js"></script> 
     <script src="script.js"></script>
